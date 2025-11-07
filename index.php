@@ -20,7 +20,7 @@
                 <input type="number" id="tahun" name="tahun_tayang" min="1800" max="2099" placeholder="Contoh: 2025" required>
             </div>
             <div>
-                <button type="submit">Simpan Film</button>
+                <button type="submit">Simpan Filmmu</button>
             </div>
         </form>
 </body>
