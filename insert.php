@@ -17,7 +17,7 @@ $tahun_tayang = 2024;
 
 
 $sql = "INSERT INTO $film (judul, pemeran, tahun_tayang)
-        VALUES ('$judul', '$penulis_buku', $tahun_tayang)";
+        VALUES ('$judul', '$pemeran', $tahun_tayang)";
 
 echo "<h1>Menjalankan Fitur Tambah Data...</h1>";
 if ($conn->query($sql) === TRUE) {
